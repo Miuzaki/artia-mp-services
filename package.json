@@ -1,0 +1,39 @@
+{
+  "name": "artia-mp-services",
+  "version": "1.0.1",
+  "description": "A lightweight and efficient database library for Node.js.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src --ext .ts",
+    "lint:fix": "eslint ./src --ext .ts --fix",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Miuzaki/artia-mp-services"
+  },
+  "keywords": [
+    "Mercado Pago",
+    "Payments",
+    "Node.js"
+  ],
+  "homepage": "https://github.com/Miuzaki/artia-mp-services",
+  "bugs": {
+    "url": "https://github.com/Miuzaki/artia-mp-services/issues"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.8.4",
+    "eslint": "^8.51.0",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}
