@@ -1,3 +1,11 @@
+export interface PaymentData {
+    transaction_amount: number;
+    payment_method_id: "pix";
+    payer: {
+        email: string;
+        first_name: string;
+    };
+}
 export type PaymentCreateResponseT = {
     id: number;
     date_created: string;

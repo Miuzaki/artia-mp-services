@@ -1,6 +1,6 @@
 {
   "name": "artia-mp-services",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A lightweight and efficient database library for Node.js.",
   "main": "dist/index.js",
   "scripts": {
