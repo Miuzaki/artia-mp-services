@@ -57,7 +57,9 @@ console.log(payment.id);
 ## Example code in typeScript
 
 ```ts
-import { MercadoPagoManager, PaymentData } from "artia-mp-services";
+import { MercadoPagoManager } from "artia-mp-services";
+import { PaymentData } from "artia-mp-services/dist/interfaces/PaymentResponse";
+
 
 const accessToken = "YOUR_ACCESS_TOKEN";
 const mercadoPago = new MercadoPagoManager(accessToken);
