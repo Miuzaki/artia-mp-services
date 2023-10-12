@@ -5,7 +5,7 @@
 <p align="center">
   <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#📝-license">License</a>
+  <a href="#-license">License</a>
 </p>
 
 # Project
