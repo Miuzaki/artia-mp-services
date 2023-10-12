@@ -2,21 +2,15 @@
 
 ![GitHub License](https://img.shields.io/badge/license-ISC-blue.svg)
 
-MercadoPagoManager is a lightweight and efficient library for managing payments with the Mercado Pago API.
+<p align="center">
+  <a href="#-">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#📝-license">License</a>
+</p>
 
-## Índice
+# Project
 
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Example in JavaScript](#example-in-javascript)
-  - [Example in TypeScript](#example-in-typescript)
-- [API reference](#api-reference)
-  - [Constructor](#constructor)
-  - [createPayment](#createpayment)
-  - [getPaymentInfo](#getpaymentinfo)
-  - [cancelPayment](#cancelpayment)
-- [Contributing](#contributing)
-- [License](#license)
+- 🔐 MercadoPagoManager is a lightweight and efficient library for managing payments with the Mercado Pago API.<br>
 
 # Installation
 
@@ -34,9 +28,12 @@ yarn add artia-mp-services
 
 # Usage
 
-To get started with MercadoPagoManager, you will need an API access token from Mercado Pago. Make sure to have it on hand before proceeding.
+`To get started with MercadoPagoManager, you will need an API access token from Mercado Pago. Make sure to have it on hand before proceeding.`
+<br>
 
-## Example in JavaScript
+`Make sure to replace 'YOUR_ACCESS_TOKEN' with your actual access token.`
+
+## Example code in javaScript
 
 ```js
 import { MercadoPagoManager } from "artia-mp-services";
@@ -57,7 +54,7 @@ const payment = mercadePago.createPayment({ paymentData: data });
 console.log(payment.id);
 ```
 
-## Example in TypeScript
+## Example code in typeScript
 
 ```ts
 import { MercadoPagoManager, PaymentData } from "artia-mp-services";
@@ -78,21 +75,21 @@ const payment = mercadePago.createPayment({ paymentData: data });
 console.log(payment.id);
 ```
 
-Make sure to replace 'YOUR_ACCESS_TOKEN' with your actual access token.
+<hr></hr>
 
-# API Reference
+# 📂 API Reference
 
-Here's the API reference for **MercadoPagoManager**.
+> Here's the API reference for **MercadoPagoManager**.
 
-## Constructor
+## 🔩 Constructor
 
-The constructor of the **MercadoPagoManager** class accepts a single parameter:
+> The constructor of the **MercadoPagoManager** class accepts a single parameter:
+>
+> - `accessToken` (string): The Mercado Pago API access token.
 
-- `accessToken` (string): The Mercado Pago API access token.
+## 💿 createPayment
 
-## createPayment
-
-Creates a payment based on the provided data.
+> Creates a payment based on the provided data.
 
 ```js
 mercadePago
@@ -105,9 +102,9 @@ mercadePago
   });
 ```
 
-## getPaymentInfo
+## 📦 getPaymentInfo
 
-Retrieves information about a payment based on the payment ID.
+> Retrieves information about a payment based on the payment ID.
 
 ```js
 mercadePago.getPaymentInfo(paymentId: string)
@@ -119,9 +116,9 @@ mercadePago.getPaymentInfo(paymentId: string)
   });
 ```
 
-## cancelPayment
+## ❌ cancelPayment
 
-Cancels a payment based on the payment ID.
+> Cancels a payment based on the payment ID.
 
 ```js
 const response = mercadePago.cancelPayment(paymentId: string)
@@ -130,10 +127,18 @@ const response = mercadePago.cancelPayment(paymentId: string)
   }
 ```
 
-# Contributing
+---
 
-If you want to contribute to the development of this library, please feel free to open issues and pull requests on the GitHub repository.
+## 🧱 Contributing
 
-# License
+> If you want to contribute to the development of this library, please feel free to open issues and pull requests on the GitHub repository.
 
-This project is licensed under the ISC License - refer to the LICENSE file for details.
+## 📝 License
+
+> This project is licensed under the ISC License - refer to the LICENSE file for details.
+
+---
+
+### Powered by Miuzaki 👋
+
+> Discord: [Contact me!](https://discord.com/users/976269710956068904) Github Miuzaki: [github.com/Miuzaki](https://github.com/Miuzaki) &nbsp;
