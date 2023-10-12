@@ -91,19 +91,19 @@ export type PaymentCreateResponseT = {
     bank_transfer_id: string | null;
     transaction_id: string | null;
   };
-  fee_details: any[]; // Você pode criar uma tipagem específica para esta parte
-  charges_details: any[]; // Você pode criar uma tipagem específica para esta parte
+  fee_details: any[];
+  charges_details: any[];
   captured: boolean;
   binary_mode: boolean;
   call_for_authorize_id: string | null;
   statement_descriptor: string | null;
   card: Record<string, any>;
   notification_url: string | null;
-  refunds: any[]; // Você pode criar uma tipagem específica para esta parte
+  refunds: any[];
   processing_mode: string;
   merchant_account_id: string | null;
   merchant_number: string | null;
-  acquirer_reconciliation: any[]; // Você pode criar uma tipagem específica para esta parte
+  acquirer_reconciliation: any[];
   point_of_interaction: {
     type: string;
     business_info: {
@@ -146,8 +146,8 @@ export type PaymentCreateResponseT = {
       qr_code_base64: string;
     };
   };
-  accounts_info: any; // Você pode criar uma tipagem específica para esta parte
-  tags: any; // Você pode criar uma tipagem específica para esta parte
+  accounts_info: any;
+  tags: any;
 };
 
 export type PaymentGetInfoT = {
@@ -234,19 +234,19 @@ export type PaymentGetInfoT = {
     bank_transfer_id: null | string;
     transaction_id: null | string;
   };
-  fee_details: any[]; // Pode ser um tipo específico se você souber a estrutura.
-  charges_details: any[]; // Pode ser um tipo específico se você souber a estrutura.
+  fee_details: any[];
+  charges_details: any[];
   captured: boolean;
   binary_mode: boolean;
   call_for_authorize_id: null | string;
   statement_descriptor: null | string;
   card: Record<string, any>;
   notification_url: null | string;
-  refunds: any[]; // Pode ser um tipo específico se você souber a estrutura.
+  refunds: any[];
   processing_mode: string;
   merchant_account_id: null | string;
   merchant_number: null | string;
-  acquirer_reconciliation: any[]; // Pode ser um tipo específico se você souber a estrutura.
+  acquirer_reconciliation: any[];
   point_of_interaction: {
     type: string;
     business_info: {
@@ -293,6 +293,6 @@ export type PaymentGetInfoT = {
       qr_code_base64: string;
     };
   };
-  accounts_info: null | Record<string, any>; // Pode ser um tipo específico se você souber a estrutura.
-  tags: null | Record<string, any>; // Pode ser um tipo específico se você souber a estrutura.
+  accounts_info: null | Record<string, any>;
+  tags: null | Record<string, any>;
 };
